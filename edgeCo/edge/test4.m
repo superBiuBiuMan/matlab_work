@@ -1,0 +1,13 @@
+aaa=rgb2gray(imread('666.jpg'));
+bbb=aaa(51:53,51:53);
+a1=bbb(1);
+a2=bbb(2);
+a3=bbb(3);
+a4=bbb(4);
+a5=bbb(5);
+a6=bbb(6);
+a7=bbb(7);
+a8=bbb(8);
+a9=bbb(9);
+aaa=[a2,a3,a6];
+temp=max(aaa);
